@@ -1,7 +1,7 @@
 NETFLIX DATA ANALYSIS PROJECT
 
 
-Netflix is one of the largest streaming platform nowadays, In this project, I analyzed their dataset of movies and TV shows using Python, Pndas , Seaborn, Matplotlib. After this analysis , we will gain a better understanding of the platform and derive meaningful insights from the data through visualized graphs.
+Netflix is one of the largest streaming platform nowadays, In this project, I analyzed their dataset of movies and TV shows using Python, Pandas , Seaborn, Matplotlib. After this analysis , we will gain a better understanding of the platform and derive meaningful insights from the data through visualized graphs.
 
 
 
