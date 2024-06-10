@@ -9,6 +9,7 @@ Netflix is one of the largest streaming platform nowadays, In this project, I an
 
 
 
+
 Contents
 
 
@@ -38,12 +39,18 @@ Contents
 
 
 
+
+
+
+
 Dataset Description:
 
 
 This dataset contains information about +8000 movies & TV Shows. Netflix is one of the most popular media and video streaming platforms,as of mid 2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and TV Shows available on Netflix ,along with details such as- cast, director,rating,release year,duration,etc.
 
 The analysis covers various aspects of the dataset, including data cleaning, exploratory data analysis, and data visualization. It provides insights into the distribution of content, ratings, genres, countries, and other factors within the Netflix library.
+
+
 
 
 
@@ -72,10 +79,16 @@ Usage
 
 
 
+
+
 Understanding the Dataset:
 
 
 EDA Questions:
+
+
+
+
 Q1. For "House of Cards", what is the show ID and who is the director of this show?
 
 Q2. In which year the highest number of movies and TV shows were released? w/Bar graph
@@ -103,6 +116,8 @@ Q12. Which individual country has the Highest No. of TV Shows?
 Q13. How can we sort the dataset by Year?
 
 Q14. Find all the instances where:type is 'movie' and listed_in is 'Dramas'or type is'TV Show'& listed_in is 'Kids''TV'
+
+
 
 
 
@@ -152,10 +167,13 @@ This tabular dataset consists of listings of all the movies and TV shows availab
 
 
 
+
 Data Visualization:
 
 
 Using Matplotlib and Seaborn, we made several meaningful visuals and charts to help us gain informative insights regarding any correlation between attributes in our dataset, that'll be discussed in the next section.
+
+
 
 
 
@@ -189,6 +207,8 @@ Conclusions and Insights:
 
 
 
+
+
 Built With
 
 
@@ -202,7 +222,11 @@ Built With
 
 . Seaborn
 
+
+
 Double-click (or enter) to edit
+
+
 
 
 
