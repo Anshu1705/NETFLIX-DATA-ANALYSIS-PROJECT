@@ -1,5 +1,14 @@
 NETFLIX DATA ANALYSIS PROJECT
+
+
+Netflix is one of the largest streaming platform nowadays, In this project, I analyzed their dataset of movies and TV shows using Python, Pndas , Seaborn, Matplotlib. After this analysis , we will gain a better understanding of the platform and derive meaningful insights from the data through visualized graphs.
+
+
+
+
 Contents
+
+
 (1) Dataset Description
 (2) Usage
 (3) Understanding the Dataset
@@ -10,13 +19,22 @@ Contents
 (8) Conclusions and Insights
 (9) Built With
 
+
+
+
 Dataset Description:
+
+
 This dataset contains information about +8000 movies & TV Shows. Netflix is one of the most popular media and video streaming platforms,as of mid 2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and TV Shows available on Netflix ,along with details such as- cast, director,rating,release year,duration,etc.
 
 The analysis covers various aspects of the dataset, including data cleaning, exploratory data analysis, and data visualization. It provides insights into the distribution of content, ratings, genres, countries, and other factors within the Netflix library.
 
 
+
+
 Usage
+
+
 (1) Download the Netflix dataset (netflix.csv) and place it in the same directory as the Python script.
 
 (2) Open the Python script in a suitable environment (e.g., Google Colab, Jupyter Notebook or any Python IDE).
@@ -26,7 +44,9 @@ Usage
 (4) Explore the generated plots and insights to gain a better understanding of the Netflix dataset.
 
 
+
 Understanding the Dataset:
+
 
 EDA Questions:
 Q1. For "House of Cards", what is the show ID and who is the director of this show?
@@ -58,12 +78,19 @@ Q13. How can we sort the dataset by Year?
 Q14. Find all the instances where:type is 'movie' and listed_in is 'Dramas'or type is'TV Show'& listed_in is 'Kids''TV'
 
 
+
+
 Data Wrangling:
+
+
 Our data can be found on netflix_titles.csv file provided on this repository, downloaded from Kaggle.
 
 
 
+
 Data Cleaning:
+
+
 (1) Deleting redundant columns.
 
 (2) Dropping duplicates.
@@ -74,16 +101,22 @@ Data Cleaning:
 
 (5) Some Transformations.
 
+
 This tabular dataset consists of listings of all the movies and TV shows available on Netflix, along with details such as- cast, directors, ratings, release year, duration,etc.I have cleaned this dataset using Python, and the code can be found on the repository.
 
 
 
+
 Data Visualization:
+
+
 Using Matplotlib and Seaborn, we made several meaningful visuals and charts to help us gain informative insights regarding any correlation between attributes in our dataset, that'll be discussed in the next section.
 
 
 
 Conclusions and Insights:
+
+
 (1) The number of movies and TV shows on Netflix has been steadily increasing until 2019, but there was a decrease in content in 2020. This decline might be due to the COVID-19 pandemic, which likely affected the production and availability of new content during that year.
 
 (2) The dataset consists of a total of 8807 content items,with 6,131 movies and 2,676 TV Shows.Each year,the dataset consistently exhibits a higher count of movies compared to TV Shows except 2021.
@@ -103,6 +136,8 @@ Conclusions and Insights:
 
 
 Built With
+
+
 . Google Colab
 
 . Pandas
