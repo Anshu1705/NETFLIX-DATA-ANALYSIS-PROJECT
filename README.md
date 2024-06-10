@@ -1,4 +1,4 @@
-NETFLIX DATA ANALYSIS PROJECT
+# NETFLIX DATA ANALYSIS PROJECT
 
 
 Netflix is one of the largest streaming platform nowadays, In this project, I analyzed their dataset of movies and TV shows using Python, Pandas , Seaborn, Matplotlib. After this analysis , we will gain a better understanding of the platform and derive meaningful insights from the data through visualized graphs.
@@ -10,7 +10,7 @@ Netflix is one of the largest streaming platform nowadays, In this project, I an
 
 
 
-Contents
+# Contents
 
 
 (1) Dataset Description
@@ -35,15 +35,7 @@ Contents
 
 
 
-
-
-
-
-
-
-
-
-Dataset Description:
+# Dataset Description:
 
 
 This dataset contains information about +8000 movies & TV Shows. Netflix is one of the most popular media and video streaming platforms,as of mid 2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and TV Shows available on Netflix ,along with details such as- cast, director,rating,release year,duration,etc.
@@ -55,11 +47,7 @@ The analysis covers various aspects of the dataset, including data cleaning, exp
 
 
 
-
-
-
-
-Usage
+# Usage
 
 
 (1) Download the Netflix dataset (netflix.csv) and place it in the same directory as the Python script.
@@ -77,16 +65,34 @@ Usage
 
 
 
+# Understanding the Dataset:
+
+Show_id: Unique ID for every Movie / Tv Show
+
+Type: Identifier - A Movie or TV Show
+
+Title: Title of the Movie / Tv Show
+
+Director: Director of the Movie
+
+Cast: Actors involved in the movie/show
+
+Country: Country where the movie/show was produced
+
+Date_added: Date it was added on Netflix
+
+Release_year: Actual Release year of the movie/show
+
+Rating: Maturity Rating of the movie/show
+
+Duration: Total Duration - in minutes or number of seasons
+
+Listed_in: Genre
+
+Description: The summary description
 
 
-
-
-Understanding the Dataset:
-
-
-EDA Questions:
-
-
+# EDA Questions:
 
 
 Q1. For "House of Cards", what is the show ID and who is the director of this show?
@@ -123,13 +129,7 @@ Q14. Find all the instances where:type is 'movie' and listed_in is 'Dramas'or ty
 
 
 
-
-
-
-
-
-
-Data Wrangling:
+# Data Wrangling:
 
 
 Our data can be found on netflix_titles.csv file provided on this repository, downloaded from Kaggle.
@@ -139,10 +139,7 @@ Our data can be found on netflix_titles.csv file provided on this repository, do
 
 
 
-
-
-
-Data Cleaning:
+# Data Cleaning:
 
 
 (1) Deleting redundant columns.
@@ -165,10 +162,7 @@ This tabular dataset consists of listings of all the movies and TV shows availab
 
 
 
-
-
-
-Data Visualization:
+# Data Visualization:
 
 
 Using Matplotlib and Seaborn, we made several meaningful visuals and charts to help us gain informative insights regarding any correlation between attributes in our dataset, that'll be discussed in the next section.
@@ -178,11 +172,7 @@ Using Matplotlib and Seaborn, we made several meaningful visuals and charts to h
 
 
 
-
-
-
-
-Conclusions and Insights:
+# Conclusions and Insights:
 
 
 (1) The number of movies and TV shows on Netflix has been steadily increasing until 2019, but there was a decrease in content in 2020. This decline might be due to the COVID-19 pandemic, which likely affected the production and availability of new content during that year.
@@ -206,10 +196,7 @@ Conclusions and Insights:
 
 
 
-
-
-
-Built With
+# Built With
 
 
 . Google Colab
