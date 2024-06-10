@@ -10,13 +10,21 @@ Contents
 
 
 (1) Dataset Description
+
 (2) Usage
+
 (3) Understanding the Dataset
+
 (4) EDA Question
+
 (5) Data Wrangling
+
 (6) Data Cleaning
+
 (7) Data Visualization
+
 (8) Conclusions and Insights
+
 (9) Built With
 
 
