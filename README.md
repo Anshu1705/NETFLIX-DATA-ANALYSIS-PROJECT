@@ -9,6 +9,12 @@ Netflix is one of the largest streaming platform nowadays, In this project, I an
 
 
 
+
+
+
+
+
+
 Contents
 
 
@@ -38,12 +44,18 @@ Contents
 
 
 
+
+
+
+
 Dataset Description:
 
 
 This dataset contains information about +8000 movies & TV Shows. Netflix is one of the most popular media and video streaming platforms,as of mid 2021, they have over 222M Subscribers globally. This tabular dataset consists of listings of all the movies and TV Shows available on Netflix ,along with details such as- cast, director,rating,release year,duration,etc.
 
 The analysis covers various aspects of the dataset, including data cleaning, exploratory data analysis, and data visualization. It provides insights into the distribution of content, ratings, genres, countries, and other factors within the Netflix library.
+
+
 
 
 
