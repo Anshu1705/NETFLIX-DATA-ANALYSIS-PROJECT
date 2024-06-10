@@ -224,7 +224,7 @@ Built With
 
 
 
-Double-click (or enter) to edit
+
 
 
 
